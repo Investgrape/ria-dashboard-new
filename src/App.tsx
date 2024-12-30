@@ -1,10 +1,10 @@
 import React from 'react';
+import Dashboard from './components/Dashboard';
 
 const App: React.FC = () => {
   return (
-    <div style={{ padding: '20px' }}>
-      <h1>RIA Dashboard</h1>
-      <p>Your dashboard will be here</p>
+    <div className="min-h-screen bg-gray-50">
+      <Dashboard />
     </div>
   );
 };
